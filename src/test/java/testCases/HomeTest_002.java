@@ -19,7 +19,7 @@ public class HomeTest_002 extends TestBase {
 		HomePage hp = new HomePage(driver);
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		Assert.assertEquals(true, hp.orangelogo_chk());// toverify logo
-
+System.out.println("Hello jenkins 1");
 		hp.adminbtn_click();
 		hp.searchbtn_click();
 		hp.pimbtn_click();
